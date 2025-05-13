@@ -10,6 +10,9 @@ header {
     color: white;
     padding: 10px 0;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav {
@@ -35,6 +38,15 @@ h1, h2 {
 footer {
     text-align: center;
     margin-top: 20px;
+}
+
+div.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(173, 216, 230, 0.5); /* Light blue */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 div.diagram {
