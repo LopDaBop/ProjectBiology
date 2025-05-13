@@ -40,7 +40,11 @@ footer {
     margin-top: 20px;
 }
 
-div.content {
+div.dirt-effect {
+    background-image: url('path/to/dirt-texture.png'); /* Replace with actual dirt texture path */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
